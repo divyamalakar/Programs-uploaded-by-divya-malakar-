@@ -1,0 +1,12 @@
+#include<studio.h>
+main()
+{
+int n;
+Printf("enter an integer\n");
+scanf("%d,&n);
+if(n%2==0)
+Printf("even\n");
+else
+Printf("odd\n");
+Return0;
+}
