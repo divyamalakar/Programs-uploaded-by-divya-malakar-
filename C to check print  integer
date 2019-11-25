@@ -1,0 +1,9 @@
+#include<studio.h >
+int main()
+{
+int a;
+printf("enter an integer\n");
+scaanf("%d",&a);
+printf("integer that you have entered is%d\n",a);
+return0;
+}
