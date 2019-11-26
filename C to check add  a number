@@ -1,0 +1,15 @@
+#include<studio.h>
+int main()
+{
+int n,sum=0,c,value;
+printf("enter the number of integer you want to add\n");
+scaanf("%d",&n);
+printf("enter %d integers\n",n);
+for(c=1;c<=n;c++)
+{
+scaanf("%d",&value);
+sum =sum+value;
+}
+printf("sum of entered integers =%d\n",sum);
+return0;
+}
