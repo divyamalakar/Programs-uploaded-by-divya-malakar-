@@ -1,0 +1,12 @@
+#include<studio.h>
+int main()
+{
+int s1,s2,s3,s4,s5,sum,total =500;
+float per;
+printf("\nEnter Mark's of 5 subject:");
+scaanf("%d%d%d%d%d",&s1,&s2,&s3,&s4,&s5);
+sum=s1+s2+s3+s4+s5;
+printf("\Baum :%d",sum);
+per=(sum*100)/500;
+printf("\nPercentag :%f",per);
+}
