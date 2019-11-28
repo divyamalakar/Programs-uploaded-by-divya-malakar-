@@ -1,0 +1,11 @@
+#include<studio.h>
+void main()
+{
+int gross salary, basic,da,ta;
+printf("enter basic salary:);
+scaanf("%d",%basic);
+da=(10*basic)/100;
+ta=(12*basic)/100;
+gross salary =basic +da+ta;
+printf("\ngross salary :%d",gross salary );
+}
