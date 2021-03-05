@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+ float sp,cp,profit, loss;
+ cout<<"Enter thw cost price\n";
+ cin>>cp;
+ cout<<"Enter the selling price\n";
+ cin>>sp;
+ if(sp>cp)
+ {
+ profit=sp-cp;
+ cout<<"profit of<<"profit"<<rupee";
+ }
+ else
+ {
+  loss=cp-sp;
+  cout<<"profit of<<"loss"<<rupee";
+  }
+}
+
