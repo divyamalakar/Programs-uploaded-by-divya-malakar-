@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+void area(int*h,int*w)
+{
+  int ar=*h**w;
+  cout<<"Area of rectangle="<<ar; 
+}
+int main()
+{
+ int x,y;
+ cout<<"Enter the heigh\n";
+ cin>>x;
+ cout<<"Enter the width\n";
+ cin>>y;
+ area(&x,&y);
+}
