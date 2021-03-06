@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int array[2][2]={{5,5}{9,9}};
+ int i,j,k,sum;
+ cout<<"first array is given below\n";
+ for(i=0;i<2;i++)
+ {
+ for(j=0;j<2;j++)
+  {
+ cout<<array[i][j]<<"";
+  }
+ cout<<"\n";
+ }
+ cout<<"transpose of array is given below\n";
+ for(i=0;i<2;i++)
+ {
+ for(j=0;j<2;j++)
+  {
+  cout<<array[i][j]<<"";
+  }
+ cout<<"\n";
+ }
+
+}
